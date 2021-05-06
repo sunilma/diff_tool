@@ -1,0 +1,48 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #diff_display {
+      border: 1px solid black;
+      margin: 30px 0;
+      padding: 10px;
+  }
+
+  .old {
+    background-color: red;
+    color: white;
+  }
+
+  .new {
+    background-color: green;
+    color: white;
+  }
+
+  .neutral {
+      color: black;
+  }
